@@ -8,6 +8,7 @@ public class OstaclesManagement : MonoBehaviour
    [SerializeField] private GameObject Enemy;
    [SerializeField] private GameObject Coin;
    [SerializeField] private GameObject[] Spaces;
+   [SerializeField] private float TimeLimit;
     // [SerializeField] private float spawnRate = 10f;
    public float timer = 0f;
     private bool enemySpawnStarted = false;
@@ -24,7 +25,7 @@ public class OstaclesManagement : MonoBehaviour
             timer += Time.deltaTime;
 
             // Check if 2 seconds have passed
-            if (timer >= 30f)
+            if (timer >= TimeLimit)
             {
                 // Change scene here, assuming "EndGameScene" is the name of the scene to load
                 SceneManager.LoadScene("EndGameScene");

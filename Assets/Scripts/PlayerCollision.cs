@@ -18,7 +18,7 @@ public class PlayerCollision : MonoBehaviour
 
     void Start()
     {
-        health = 1000;
+        health = 10;
         score = 0;
         UpdateUI();
         playerInfoText.text = "HE171282 - Nguyen Thi Quynh - SE1745 - Lab01";  // Add your information here

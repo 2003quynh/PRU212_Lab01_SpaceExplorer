@@ -1338,6 +1338,7 @@ MonoBehaviour:
   - {fileID: 3880162502595812262, guid: e79dd658953d8ce43bd70faa440c99ae, type: 3}
   - {fileID: 6060094977111011959, guid: e7066dbb657b53341b3e6b7e6fca8569, type: 3}
   - {fileID: 1078090554247258808, guid: 187586f152b4cf645be424f05650d979, type: 3}
+  TimeLimit: 30
   timer: 0
 --- !u!4 &2115022308
 Transform:
